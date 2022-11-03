@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://r1.ilikewallpaper.net/iphone-x-wallpapers/download-118157/space-galaxy.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  background-color: none;
+  color: #64d59f;
+  margin-top: 10px;
+  min-height: 200px;
+}
+
+header img {
+  float: right;
+  width: 700px;
+  border-radius: 75%;
+}
+
+header h1 {
+  float: inline-end;
+  text-shadow: 0.15em 0.15em darkgreen;
+  font-size: 1.3em;
+  margin-top: 30px;
+}
+
+header p {
+  float: left;
+  font-size: 1em;
+  font-style: "Roboto";
+  margin-top: 10px;
+}
+
+nav {
+  background-color: #000000;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #d35400;
+  padding: 10px;
+}
+
+nav li > ul {
+  display: none;
+  position: absolute;
+  width: 160px;
+  background-color: rgb(59, 35, 155);
+}
+
+nav li > ul a {
+  width: 130px;
+  display: block;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+nav a:hover {
+  background-color: rgb(59, 35, 155);
+  color: #ffffff;
+}
+
+#main {
+  background-color: #ecf0f1;
+}
+
+#main-content {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  width: 66%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+}
+
+#main-content h1 {
+  font-size: 1.5em;
+  color: #c0392b;
+  margin: 20px 0px;
+}
+
+#main-content h2 {
+  font-size: 1em;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+
+#main-content p {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+aside {
+  float: right;
+  width: 28%;
+}
+
+aside button {
+  font-family: 'Anton', sans-serif;
+
+}
+
+aside input[type="text"] {
+  width: 200px;
+  padding: 5px 0px;
+  border: none;
+}
+
+aside h2 {
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+aside h2:last-child {
+  margin-top: 30px;
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #d35400;
+  padding: 5px 1%;
+}
+
+aside a:hover {
+  background-color: rgb(59, 35, 155);
+  color: #ffffff;
+}
+aside img {
+  display: block;
+  border-radius: 75%;
+  width: 150px;
+  margin: auto;
+}
+footer {
+  background-color: rgb(59, 35, 155);
+  color: #ffffff;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+footer img {
+  display: block;
+  border-radius: 50%;
+  float: left;
+  width: 50px;
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px;
+}
+
+footer a {
+  background-color: azure;
+}
